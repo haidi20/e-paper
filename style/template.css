@@ -1,0 +1,156 @@
+.thumbBar {
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	background-color:#000000;
+	opacity:0.6;
+	height: 120px;
+	z-index: 100;
+}
+.thumbBG {
+	position: absolute;
+	bottom: 1px;
+	/*left: 0px;*/
+	right: 0px;
+	height: 105px;
+	overflow: hidden;
+	opacity: 0.9;
+	/*background-color:#888888;*/
+	z-index:102;
+}
+.thumbBack {
+	position: absolute;
+	bottom: 1px;
+	left: 0px;
+	right: 0px;
+	height: 105px;
+	overflow: hidden;
+	opacity: 0.9;
+	/*background-color:#888888;*/
+	z-index:101;
+}
+.thumbBox {
+	position: absolute;
+	bottom: 1px;
+	left: 0px;
+	right: 0px;
+	height: 95px;
+	/*background-color:#ff0000;*/
+}
+
+
+.thumbItem{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	height: 82px;
+	border-width: 1px;
+	border-style:inset;
+	border-color: #aaaaaa;
+}
+
+.bottom.right, .bottom.right button, .bottom.right .numbering{
+  position: absolute; 
+  top: 2px;
+  left: auto; }
+  a ,button{
+   cursor: pointer;
+  }
+  .bottom.right{
+  	 padding-right: 10px;
+  }
+  
+  .bottom.left, .bottom.left button, .bottom.left .numbering{
+  position: absolute; 
+  top: 0px;
+  right: auto; }
+  a ,button{
+   cursor: pointer;
+  }
+  .bottom.right{
+  	 padding-right: 10px;
+  }
+  
+  .fbTopBar{
+	
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+   
+    
+ 		top: -50px;
+  	left: 0px;
+ 		right: 0px;
+ 	
+  	height: 42px;
+  	
+  	opacity: 0.95;
+  	
+  	border-radius: 5px;
+	}
+  
+	.fbToolBar{
+	
+    overflow: hidden;
+    position: absolute;
+    z-index: 99;
+   
+    
+ 	bottom: -50px;
+  	/*left: 0px;*/
+ 	right: 0px;
+ 	
+  	height: 42px;
+  	
+  	/*border-radius: 5px;*/
+  	/**
+  	  	
+  	 border-left-width: 0;
+    border-right-width: 0;
+  	  text-shadow: 0 -1px 1px #000000;
+	font-family: Verdana,sans-serif;
+  	 font-size: 12px;
+  	 color: white; 	
+  	 background-color: #111111;*/
+  
+ /* background: gradient(linear, left top, left bottom, from(#333333), to(black));
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(black));
+  background: -moz-linear-gradient(top, #333333, black);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='black');
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='black');	*/
+  	opacity: 0.95;
+	}
+	.fbToolBar button, .fbTopBar button {
+    width: 45px;
+    height: 33px;
+    padding: 2px;
+    /*  margin: 1px 0 0 3px;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #404040;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #404040;
+   background: gradient(linear, left top, left bottom, from(#4d4d4d), to(#333333));
+    background: -webkit-gradient(linear, left top, left bottom, from(#4d4d4d), to(#333333));
+    background: -moz-linear-gradient(top, #4d4d4d, #333333);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#333333');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#333333'); */
+	}
+	.numbering, .numbering span {
+    /*color: #999999 !important;*/
+    border-radius: 5px;
+  }
+
+.numbering{
+	bottom: 3px;
+	position:absolute;
+}
+.numbering, .numbering button{
+  position: absolute; 
+  top: 0px;
+  right: auto; }
